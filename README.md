@@ -58,6 +58,15 @@ I work at the intersection of engineering and design: I design in **Figma** and 
 
 ---
 
+### 🍽️ QR Tap — Restaurant QR Ordering Platform `Private Product`
+> Private restaurant platform built as two Flutter apps: a customer app and an admin dashboard.  
+> Customer app: QR table sessions, menu browsing, cart/order flow, reservations with QR check-in, support requests, feedback, notifications, and offline restaurant/menu continuity.  
+> Admin app: order management, reservations, support tickets, feedback, FAQs, notifications, and configurable settings.  
+> Source code is private. Screenshots and walkthrough available on request.  
+> `Flutter` `Dart` `BLoC` `Clean Architecture` `REST API` `QR Scanner` `Offline UX` `Admin Dashboard`
+
+---
+
 ### ⚖️ Qwaeid (قواعد) — Legal Platform `Real Client`
 > Flutter legal resource platform for the **Public Prosecution of Palestine**.  
 > PDF viewer/download, SSO login (custom MethodChannel plugin), Lottie animations.  
