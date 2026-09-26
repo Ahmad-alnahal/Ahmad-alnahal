@@ -3,6 +3,7 @@
 # Ahmad Alnahal
 ### Flutter Mobile App Developer
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-ahmad--alnahal.github.io-14B8A6?style=flat-square&logo=googlechrome&logoColor=white)](https://ahmad-alnahal.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmadalnahal-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmadalnahal/)
 [![Behance](https://img.shields.io/badge/Behance-ahmadalnahal-1769FF?style=flat-square&logo=behance&logoColor=white)](https://www.behance.net/ahmadalnahal)
 [![Email](https://img.shields.io/badge/Email-alnahal2003@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:alnahal2003@gmail.com)
@@ -51,10 +52,30 @@ I work at the intersection of engineering and design: I design in **Figma** and 
 ## Featured Projects
 
 ### 🔄 Rotate Rules — Per-App Rotation Engine `System-Level Tool`
-> Android utility that enforces screen rotation behavior per app using a foreground service and rule engine.  
-> Detects the current foreground app and automatically applies rotation rules, with fallback and restore system state logic.  
-> Handles Android permissions, system constraints, and service lifecycle safely.  
+> Android utility app that controls screen rotation behavior per app using a foreground service and rule engine. Detects the current foreground app, matches saved rotation rules, applies rotation automatically, and supports fallback and restore of previous system rotation behavior.  
 > `Flutter` `Kotlin` `Foreground Service` `UsageStatsManager` `MethodChannel` `BLoC` `Clean Architecture`  
+> [Repository](https://github.com/Ahmad-alnahal/rotate_rules_app)
+
+---
+
+### 🗂️ MARJIY — Legal Library Curation Tool `Windows Desktop App`
+> Flutter Desktop app built for my father to organize a legal document library: safely importing PDFs (source files always stay read-only), detecting duplicates via SHA-256, adding legal metadata, full-text search through SQLite FTS5, and preparing reviewed export batches for a future public legal-library website. Delivered as a Windows installer and in daily use for about a month with zero reported bugs.  
+> `Flutter Desktop` `BLoC` `Clean Architecture` `Drift / SQLite` `FTS5` `Win32 FFI` `GetIt`  
+> [Repository](https://github.com/Ahmad-alnahal/legal_library_manager)
+
+---
+
+### ✅ Taskora — Freelancer Time & Earnings Tracker `Full-Stack`
+> Productivity app for freelancers and students juggling several small projects at once, tying logged hours per task directly to an hourly rate so real per-project earnings are always visible. Backend rebuilt with Laravel from a written API contract after an earlier third-party API proved unreliable. Real offline-first support (local SQLite via Drift with a sync queue), and every issued auth token is activated independently through its own email OTP step rather than a single account-wide verification.  
+> `Flutter` `BLoC` `Clean Architecture` `Drift / SQLite` `Dio` `Laravel 12` `Sanctum` `Pest`  
+> [Flutter repo](https://github.com/Ahmad-alnahal/Taskora) · [Laravel repo](https://github.com/Ahmad-alnahal/Taskora-Laravel)
+
+---
+
+### 🚗 Naqlah — P2P Car Rental Platform `Private Project`
+> Took over an existing Flutter car-rental app built by a previous team and rebuilt it into a new product for a different market: full rebrand (name, identity, colors, domain, backend), a systematic Clean Architecture cleanup, a centralized guest-access security gate across 16+ screens, and dozens of documented data-integrity and logic bugs fixed with real before/after verification on a physical device. Delivered stable and production-tested; the client engagement later paused for licensing reasons unrelated to the technical work.  
+> Source code is private.  
+> `Flutter` `BLoC/Cubit` `Clean Architecture` `GetIt` `GoRouter` `Dio` `Hive` `Firebase` `Google Maps`
 
 ---
 
@@ -67,44 +88,24 @@ I work at the intersection of engineering and design: I design in **Figma** and 
 
 ---
 
-### ⚖️ Qwaeid (قواعد) — Legal Platform `Real Client`
-> Flutter legal resource platform for the **Public Prosecution of Palestine**.  
-> PDF viewer/download, SSO login (custom MethodChannel plugin), Lottie animations.  
-> Sole designer and developer — full architecture, auth, file management.  
-> `Flutter` `GetX` `Dio` `Syncfusion PDF` `Custom SSO`
+### ⚖️ Qwaeid (قواعد) — Legal Platform `Solo Dev`
+> Full Flutter legal resource platform for browsing Palestinian legislation, judicial studies, and official publications. Includes PDF viewer/download, SSO login via a custom MethodChannel plugin, and Lottie animations. Designed and engineered solo from architecture to delivery.  
+> `Flutter` `GetX` `Dio` `Syncfusion PDF` `SSO / MethodChannel` `Lottie`  
+> [Repository](https://github.com/Ahmad-alnahal/Qwaeid) · [Figma design](https://www.figma.com/design/I76PNG31s808lsA36LOl4K/qwaeid-app?node-id=0-1)
 
 ---
 
-### 🍳 Cook App — Food Delivery Platform `In Progress`
-> Production-grade food delivery app under strict architectural standards.  
-> Clean Architecture + BLoC + GetIt DI + Firebase Auth (email & Google Sign-In) + Firestore.  
-> Multi-language RTL/LTR · Strict layer separation.  
-> `Flutter` `BLoC` `Clean Architecture` `GetIt` `Firebase` `Go Router`
+### 🍳 Cook App — Food Delivery Platform `Delivered · Client Project`
+> Production-grade food delivery application built under strict architectural standards for Zagency. Clean Architecture + BLoC + GetIt DI + Firebase Auth, Firestore, and multi-language RTL/LTR support. Strict layer separation from presentation to domain to data with use cases and repositories.  
+> `Flutter` `BLoC` `Clean Architecture` `GetIt` `Firebase` `Go Router` `Localization`  
+> [Repository](https://github.com/Ahmad-alnahal/cook_app)
 
 ---
 
-### ✅ Taskora — Freelancer Project Manager `In Progress`
-> Manage freelance projects and tasks with automatic profit tracking.  
-> `Flutter` `BLoC` `Clean Architecture` `REST API`
-
----
-
-### 🛒 BATAL — E-Commerce App `~70% Complete`
-> Full Flutter e-commerce app with Firebase Auth, Firestore, and push notifications.  
-> Cart system with discount codes · Arabic/English localization.  
-> `Flutter` `Firebase` `Provider` `FCM` `SharedPreferences`
-
----
-
-### 🎬 Movies App — TMDb Browser `Learning Project`
-> Browse movies via TMDb REST API — first full Clean Architecture + BLoC implementation.  
-> `Flutter` `BLoC` `GetIt` `Dio` `Clean Architecture`
-
----
-
-### 🃏 Ehsibly (إحسبلي) — Card Game Score Tracker
-> Score tracker for Tarneeb with rule validation and winner detection.  
-> `Flutter` `GetX` `Material 3` `Arabic L10n`
+### 🎨 NROMA — Marketing Website Redesign `UI/UX Design`
+> Full UI/UX redesign of a marketing website with an outdated, inconsistent interface. Designed a modern visual identity, layout system, and responsive structure end-to-end in Figma. Implementation is pending a separate decision on the client side.  
+> `Figma` `UI/UX Design` `Visual Identity` `Responsive Web`  
+> [Figma design](https://www.figma.com/design/boisi41NchA71K1oAzKxU7/NROMA?node-id=0-1)
 
 ---
 
