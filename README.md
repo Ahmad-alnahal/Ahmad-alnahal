@@ -5,7 +5,6 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ahmad--alnahal.github.io-14B8A6?style=flat-square&logo=googlechrome&logoColor=white)](https://ahmad-alnahal.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmadalnahal-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmadalnahal/)
-[![Behance](https://img.shields.io/badge/Behance-ahmadalnahal-1769FF?style=flat-square&logo=behance&logoColor=white)](https://www.behance.net/ahmadalnahal)
 [![Email](https://img.shields.io/badge/Email-alnahal2003@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:alnahal2003@gmail.com)
 [![Status](https://img.shields.io/badge/Status-Open%20to%20Remote%20Work-34D399?style=flat-square)](#)
 
